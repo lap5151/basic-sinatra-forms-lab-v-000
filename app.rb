@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    "goodbye"
+    erb :team
   end
 
 end
